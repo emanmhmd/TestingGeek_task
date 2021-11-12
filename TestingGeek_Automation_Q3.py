@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-# evernote credentials
+# login with credentials
 username = "testinggeek@tmpbox.net"
 password = "123456789"
 # login with no credentials
