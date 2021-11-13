@@ -42,4 +42,4 @@ WebDriverWait(driver=driver, timeout=10).until(
 
 
 driver.implicitly_wait(300) 
-#driver.close()
+driver.close()
