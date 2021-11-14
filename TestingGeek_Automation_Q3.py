@@ -32,9 +32,9 @@ driver.find_element(By.TAG_NAME,"input#loginButton.Btn.Btn_emph.Btn_super").Clic
 #logbutton.click()
 '''
 # waitting to be complete
-#WebDriverWait(driver=driver, timeout=10).until(
-#    lambda x: x.execute_script("return document.readyState === 'complete'")
-#)'''
+WebDriverWait(driver=driver, timeout=10).until(
+    lambda x: x.execute_script("return document.readyState === 'complete'")
+)'''
 
 driver.implicitly_wait(300) 
 driver.close()
